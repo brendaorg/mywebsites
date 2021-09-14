@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-image: url("https://c1.wallpaperflare.com/preview/471/703/720/e-learning-training-school-online-learn-knowledge.jpg");
+   background-size:cover;
+   background-color:teal;
+   background-position: center center;
+  } 
+html,body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+  
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#157347;
+    font-weight:700;
+    font-size: 20;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#157347;
+    font-weight: 500;
+}
+.logo img{
+    height:60px;  
+    
+
+}
+a.nav-link{
+    font-size: 20px;
+    color:white;
+
+}
+a.nav-link:hover{
+  background-color: yellow;
+}

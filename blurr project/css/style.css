@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Tangerin',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg {
+
+    background: url('https://wallpapersflix.com/cool/wp-content/uploads/2020/10/Cool-Background-For-Laptop-1024x576.jpg')
+    no-repeat center center/cover;
+    position: absolute;
+    top:-30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+.welcome-note{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 8px;
+    font-size: 65px;  
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text{
+
+    font-size: 50px;
+    color:grey; 
+}
